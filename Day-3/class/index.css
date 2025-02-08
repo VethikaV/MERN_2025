@@ -1,0 +1,18 @@
+#idSelector{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+
+}
+
+.external{
+    background-color: yellow;
+    height: 400px;
+    width: 200px;
+}
+ol{
+    margin-top: 110px;
+    list-style-type: circle;
+}
+*{
+    background-color: cadetblue;
+}
