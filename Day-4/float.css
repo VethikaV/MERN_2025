@@ -1,0 +1,15 @@
+.logo{
+    float: left;
+    margin: 20px;
+
+}
+.float-right
+{
+    float: right;
+    margin: 10px;
+}
+/*element selector is img*/
+img{
+    border: 30px solid ;
+    opacity: 0.5;
+}

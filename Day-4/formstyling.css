@@ -1,0 +1,12 @@
+/*styling only the input with a number type*/
+
+input[type=number]
+{
+    border: 1px solid yellow;
+    border-radius: 30px;
+}
+/*styling the entire input*/
+input{
+    border: 1px solid black;
+    border-radius: 30px;
+}

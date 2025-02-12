@@ -1,0 +1,62 @@
+/* relative-pos{
+    position: relative;
+    left: 50px;
+    top: 50px;
+    background-color: aqua;
+    z-index: 3;
+
+} */
+/* 
+.relative-pos1{
+    position: relative;
+    
+    background-color: yellow;
+    z-index: 2;
+
+}
+
+
+.relative-pos2{
+    position: relative;
+    left: 50px;
+    top: 50px;
+    background-color: aqua;
+    z-index: 1;
+
+}
+.div-pos{
+    position: static;
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+}
+
+.div-position{
+    position: relative;
+    border: 2px solid yellow;
+    margin: 100px;
+    height: 500px;
+    width: 300px;
+
+}
+.abs-pos{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+*/
+
+.para
+{
+    top:50px;
+}
+.fixed-pos{
+    position: fixed;
+    top: 50px;
+} 
+
+.sticky-pos{
+    position: sticky;
+    top: 100px;
+}
