@@ -1,12 +1,12 @@
-/* relative-pos{
+/*
+relative-pos{
     position: relative;
     left: 50px;
     top: 50px;
     background-color: aqua;
     z-index: 3;
+} 
 
-} */
-/* 
 .relative-pos1{
     position: relative;
     
