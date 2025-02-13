@@ -1,0 +1,34 @@
+/*li{
+    display: inline;
+    padding: 100px;
+}*/
+ nav{
+    display: flex;
+    justify-content: space-around;
+    list-style-type:none;
+    background-color: chocolate;
+    padding: 10px;
+}
+header{
+    background-color: chocolate;
+}
+body{
+    margin: 0;
+}
+.link{
+    text-decoration: none;
+    color: wheat;
+    padding: 3px;
+    
+}
+
+.link:hover{
+    background-color: white;
+    color: chocolate;
+    border-radius: 4px;
+   
+}
+h3{
+    color: wheat;
+    display: inline-flex;
+}
