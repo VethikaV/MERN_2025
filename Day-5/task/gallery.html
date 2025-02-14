@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+    
+@media screen and (max-width: 300px) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: gold;
+    padding: 30px;
+    margin: 10px;
+  }
+  .grid-items {
+    background-color: yellow;
+    color: darkgreen;
+    text-align: center;
+    margin: 3px;
+    height: 150px;
+    font-size: 20px;
+  }
+}
+
+
+@media screen and (min-width: 301px) and (max-width: 700px) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: lightblue; /* Changed for visibility */
+    padding: 20px;
+    margin: 5px;
+  }
+  .grid-items {
+    background-color: lightgray;
+    color: navy;
+    font-size: 18px;
+  }
+}
+
+
+@media screen and (min-width: 701px) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: gold;
+    padding: 60px;
+    margin: 10px;
+  }
+  .grid-items {
+    background-color: yellow;
+    color: darkgreen;
+    text-align: center;
+    margin: 5px;
+    height: 250px;
+    font-size: medium;
+  }
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+
+    </style>
+</head>
+<body>
+    <div  class="container">
+        <div class="grid-items"><img src="Image.jpeg"><h3>Earth</h3></div>
+        <div class="grid-items"> <img src="Image.jpeg"><h3>Earth</h3></div>
+        <div class="grid-items"> <img src="Image.jpeg"><h3>Earth</h3></div>
+        <div class="grid-items"> <img src="Image.jpeg"><h3>Earth</h3></div>
+        <div class="grid-items"> <img src="Image.jpeg"><h3>Earth</h3></div>
+        <div class="grid-items"> <img src="Image.jpeg"><h3>Earth</h3></div>
+        <div class="grid-items"> <img src="Image.jpeg"><h3>Earth</h3></div>
+        <div class="grid-items"><img src="Image.jpeg"><h3>Earth</h3></div>
+        
+    </div>
+</body>
+</html>
+
