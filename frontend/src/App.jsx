@@ -5,7 +5,8 @@ import Gallery from './components/Functionalcomponents/gallery';
 import Contact from './components/Functionalcomponents/contact';
 import Navigation from './components/Functionalcomponents/navbar';
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
-
+import UseEffect from './components/Functionalcomponents/Hooks/UseEffect';
+import COE from './components/Functionalcomponents/ContextAPI/COE'
 
 function App(properties) {
   return (
@@ -19,6 +20,8 @@ function App(properties) {
           <Route path="/Contact" element={<Contact />}/>
           <Route path="/Signup" element={<Signup />}/>
           <Route path="/Gallery" element={<Gallery />}/>
+          <Route path='/use-state' element={<UseEffect />}/>
+          
          
          </Routes>
       </BrowserRouter>
