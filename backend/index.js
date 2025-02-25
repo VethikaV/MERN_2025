@@ -9,7 +9,7 @@ dotenv.config()
 
 
 mdb
-  .connect("process.env.MONGODB_URL")
+  .connect(process.env.MONGODB_URL)
   .then(() => {
     console.log("MDB Connection Successful");// if it doesnot work connect with local server
   })
@@ -39,7 +39,7 @@ app.post("/signup",(req,res) =>{
     });
     newSignup.save();
     console.log("Signup successfully");
-        ({ message: "Signup Successfully", isSignUp: true });
+        res.status(201).json({ message: "Signup Successfully", isSignUp: true });
     } catch (error) {
     console.log(error);
         res.status(400).json({ message: "Signup Unsuccessfully", isSignUp: false});
