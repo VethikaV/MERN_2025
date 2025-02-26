@@ -1,4 +1,4 @@
-import StudentResults from "./StudentResults";
+import StudentResults from "./StudentReults";
 
 const Exam = () => {
   return (

@@ -1,5 +1,5 @@
 import { createContext } from "react";
-import Faculty from "./Facult";
+import Faculty from "./ContextAPI/Faculty";
 export const ResPub = createContext();
 const CoE = () =>{
   return(

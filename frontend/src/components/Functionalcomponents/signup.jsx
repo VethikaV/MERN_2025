@@ -12,7 +12,9 @@ function Signup() {
     const [phoneNumber,setPN]=useState(0);
     const handleSignup = async (event) =>{
       event.preventDefault()
-     const req= await axios.post("http://localhost:3001/signups",{
+    // const req= await axios.post("http://localhost:3001/signups",{
+      
+    const req= await axios.post("https://mern-2025-4x8i.onrender.com/signups",{
         firstName:firstName,
         lastName:lastName,
         email:email,
