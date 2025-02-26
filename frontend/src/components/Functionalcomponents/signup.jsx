@@ -1,21 +1,33 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import axios from 'axios';
+import { useNavigate } from "react-router-dom";
 
 function Signup() {
+  const navigate = useNavigate()
     const [firstName,setFN]=useState("");
     const [lastName,setLN]=useState("");
     const [email,setil]=useState("");
     const [password,setPass]=useState("");
     const [phoneNumber,setPN]=useState(0);
-    const handleSignup = () =>{
-     axios.post("http://localhost:3001/signups",{
+    const handleSignup = async (event) =>{
+      event.preventDefault()
+     const req= await axios.post("http://localhost:3001/signups",{
         firstName:firstName,
         lastName:lastName,
         email:email,
         password:password,
         phoneNumber:phoneNumber
      });
+     const message= req.data.message
+     const isSignup = req.data.isSignup
+     if(isSignup){
+     alert(message);
+     navigate('/login')
+     }
+     else{
+      alert(messag);
+     }
     };
 
 

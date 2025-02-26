@@ -5,6 +5,8 @@ import About from './components/Functionalcomponents/about';
 import Gallery from './components/Functionalcomponents/gallery';
 import Contact from './components/Functionalcomponents/contact';
 import Navigation from './components/Functionalcomponents/navbar';
+import COE from './components/Functionalcomponents/ContextAPI/COE';
+import Exam
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
 
 //import UseEffect from './components/Functionalcomponents/Hooks/UseEffect';
