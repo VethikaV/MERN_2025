@@ -6,6 +6,7 @@ const signup=require('./models/signupSchema')
 const bcrypt = require('bcrypt')
 
 const app = express();
+
 app.use(cors())
 app.use(express.json())
 const PORT = 3001;
