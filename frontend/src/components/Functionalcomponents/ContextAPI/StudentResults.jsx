@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { ResPub } from "./COE";
+
 
 const StudentResults = () => {
   const result = useContext(ResPub);

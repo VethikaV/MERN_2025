@@ -52,8 +52,6 @@ app.post("/signups",async (req,res) =>{
     }
 });
 
-//check the existing user list
-//getssignupdet dhan name to be pasted in pist
 app.get('/getsignupdet',(req,res)=>{
   const signup =Signup.find()
   console.log(signup);

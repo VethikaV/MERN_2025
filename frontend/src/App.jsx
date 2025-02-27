@@ -1,22 +1,22 @@
-import Home from "./components/FunctionalComponents/Home.jsx";
-import About from "./components/FunctionalComponents/about.jsx";
-import Gallery from "./components/FunctionalComponents/gallery.jsx";
-import Contact from "./components/FunctionalComponents/contact.jsx";
-//import Signup from "./components/Functionalcomponents/signup.jsx";
-import Navbar from "./components/FunctionalComponents/navbar.jsx";
+import Home from "./components/Functionalcomponents/Home.jsx";
+import About from "./components/Functionalcomponents/about.jsx";
+import Gallery from "./components/Functionalcomponents/gallery.jsx";
+import Contact from "./components/Functionalcomponents/contact.jsx";
+import Signup from "./components/Functionalcomponents/signup.jsx";
+import Navbar from "./components/Functionalcomponents/navbar.jsx";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import UseEffect from "./components/FunctionalComponents/Hooks/UseEffect.jsx";
-import UseState from "./components/FunctionalComponents/Hooks/UseState";
-import Login from "./components/FunctionalComponents/login.jsx"
-import UseEffectAPI from "./components/FunctionalComponents/Hooks/UseEffectAPI";
-import UseRef from "./components/FunctionalComponents/Hooks/UseRef";
-import UseMemo from "./components/FunctionalComponents/Hooks/UseMemo";
-import UseCallback from "./components/FunctionalComponents/Hooks/UseCallback";
-import UseMemoize from "./components/FunctionalComponents/Hooks/UseMemoize";
-//import HoC from "./components/FunctionalComponents/HoC/Hoc.jsx";
-//import Memo from "./components/FunctionalComponents/Memoization/Memo";
-//import LazyLoadingAndSuspense from "./components/FunctionalComponents/Memoization/LazyLoadingAndSuspense.jsx";
-import CoE from "./components/FunctionalComponents/COE.jsx";
+import UseEffect from "./components/Functionalcomponents/Hooks/UseEffect.jsx";
+import UseState from "./components/Functionalcomponents/Hooks/UseState";
+import Login from "./components/Functionalcomponents/login.jsx"
+import UseEffectAPI from "./components/Functionalcomponents/Hooks/UseEffetAPI.jsx";
+import UseRef from "./components/Functionalcomponents/Hooks/UseRef";
+import UseMemo from "./components/Functionalcomponents/Hooks/UseMemo.jsx";
+import UseCallback from "./components/Functionalcomponents/Hooks/UseCallback";
+import UseMemoize from "./components/Functionalcomponents/Hooks/UseMemoize";
+import HoC from "./components/Functionalcomponents/HoC/Hoc.jsx";
+import Memo from "./components/Functionalcomponents/Memoization/Memo";
+import LazyLoadingAndSuspense from "./components/Functionalcomponents/Memoization/LazyLoadingAndSuspense.jsx";
+import CoE from "./components/Functionalcomponents/COE.jsx";
 
 function App() {
   return (
