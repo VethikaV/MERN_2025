@@ -3,11 +3,16 @@ const mdb = require("mongoose");
 const dotenv = require('dotenv');
 const cors= require('cors');
 const signup=require('./models/signupSchema')
+const login=require('./models/loginSchema')
 const bcrypt = require('bcrypt')
 
 const app = express();
 
-app.use(cors())
+app.use(cors({
+  origin: "https://sjit-mern.vercel.app/",
+  credentials: true,
+  methods: ['GET', 'POST']
+}));
 app.use(express.json())
 const PORT = 3001;
 dotenv.config()

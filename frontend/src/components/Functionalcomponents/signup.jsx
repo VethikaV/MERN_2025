@@ -1,7 +1,8 @@
-import { useState } from "react";
+ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
+
 function Signup() {
   const navigate = useNavigate();
   const [firstName, setFN] = useState("");
@@ -11,7 +12,7 @@ function Signup() {
   const [phoneNumber, setPN] = useState(0);
   const handleSignup = async (event) => {
     event.preventDefault();
-    const req = await axios.post("https://mern-2025-4x8i.onrender.com", {
+    const req = await axios.post("https://mern-2025-4x8i.onrender.com/signup", {
       firstName: firstName,
       lastName: lastName,
       email: email,
